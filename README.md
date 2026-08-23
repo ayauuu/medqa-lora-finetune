@@ -1,11 +1,11 @@
-# Medical QA — LoRA Fine-Tune
+# Medical QA — LoRA Fine-Tune.
 
 Fine-tuning Qwen2.5-1.5B-Instruct on MedMCQA (medical exam Q&A) using QLoRA on a free Colab T4 GPU.
 
-## Status
+## Status.
 🚧 In progress
 
-## Method
+## Method.
 - Base model: Qwen2.5-1.5B-Instruct
 - Dataset: MedMCQA (openlifescienceai/medmcqa), 3000-example training subset
 - Fine-tuning: QLoRA (4-bit, LoRA rank=16) via PEFT + TRL
